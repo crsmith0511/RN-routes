@@ -1,19 +1,19 @@
 import React, {Component} from 'react';
 import {View, Text, Button} from 'react-native';
 
-export default class GoodBye extends Component {
+export default class Home extends Component {
   render() {
     return (
       <View>
-        <Text>This is the home page</Text>
+        <View>
+        <Text>Would you like to sign out</Text>
+        </View>
+        <View>
         <Button
-          title="Landing Page"
+          title="SignOut"
           onPress={() => this.props.navigation.navigate('Landing Page')}
         />
-        <Button
-          title="Home"
-          onPress={() => this.props.navigation.navigate('Home')}
-        />
+        </View>
       </View>
     );
   }
