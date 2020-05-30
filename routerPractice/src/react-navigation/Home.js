@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, {Component} from 'react';
 import {View, Text, Button} from 'react-native';
 import { Calendar, CalendarList} from 'react-native-calendars';
